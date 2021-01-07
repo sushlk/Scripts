@@ -1,0 +1,27 @@
+uname=input(("hello whats your name buddy?"))
+print("hello", uname+".",)
+
+
+unage = input(("hello,what is your age?" ))
+print("great", uname+".", )
+
+question = input(("Would you like to play a Quiz  [Yes/no] "))
+if question == "no":
+    print("oh..okey",uname+".", )
+
+if question == "yes":
+    print("ok I know you'r instrested to playing Quiz",uname+".", )
+
+    guess = input(("whis Animal is the king of the jungle? ",uname+".",))
+    if guess == "lion":
+        print("you're right!  (score:1great)")
+
+
+    guess = input(("India has largest deposits of ____ in the world.",uname+".",))
+    if guess == "mica":
+       print("you're right! great (score:1)")
+
+
+
+       print("thanks for playing the quiz!! by sushanthlk"
+             )
